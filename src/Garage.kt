@@ -12,6 +12,8 @@ class Garage {
             println("Marque : ${vehicule.marque}")
             println("Année de Frabrication : ${vehicule.anneeFrabrication}")
             println("couleur : ${vehicule.couleur}")
+            println("Le klaxon est")
+            println(vehicule.klaxonner())
             println("   ")
         }
     }
